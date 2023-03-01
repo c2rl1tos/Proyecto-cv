@@ -1,0 +1,195 @@
+.navbar-nav .nav-link {
+    border: 1px solid #007bff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.img_perfil {
+    width: 70%;
+    margin: 5% 5%;
+    border: 1px solid #fff;
+}
+
+.img_exp {
+    margin-right: 25px;
+    margin-top: 15px;
+    border: 1px solid #fff;
+}
+
+.img_hab {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid #fff;
+
+}
+
+.perfil-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+}
+
+.exp-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+
+}
+
+.hab-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+
+}
+
+.mail {
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+}
+
+.mail:hover {
+    font-weight: 600;
+    font-size: 24px;
+    color: #007bff;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.telefono {
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+}
+
+.telefono:hover {
+    font-weight: 600;
+    font-size: 24px;
+    color: #007bff;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+}
+
+.linkedin {
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 3px
+}
+
+.mail-ref {
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+}
+
+.mail-ref:hover {
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+@media (max-width: 576px) {
+    .card-img {
+        width: 50% !important;
+        margin-left: 25% !important;
+    }
+
+    .img_exp {
+        width: 90% !important;
+        margin: 20px 20px 20px 20px !important;
+
+
+    }
+
+    .img_hab {
+        width: 90% !important;
+        margin: 20px 20px 20px 20px !important;
+    }
+}
+
+
+@media(max-width:768px) {
+    .navbar-nav .nav-link {
+        border: 1px;
+    }
+
+    .img_perfil {
+        border: 1px solid #fff;
+        margin-left: 20%;
+    }
+
+    .img_exp {
+        width: 90%;
+        margin: 20px 20px 20px 25px !important;
+    }
+
+    .img_hab {
+        width: 90%;
+    }
+}
+
+@media(max-width:992px) {
+    .img_perfil {
+        width: 90%;
+        margin: 10% 10%;
+    }
+
+    .navbar-nav .nav-link {
+        border: 2px;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+
+}
+
+.container {
+    flex: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
